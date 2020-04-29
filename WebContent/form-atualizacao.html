@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>ATUALIZACAO</h1><hr>
+<form action="AtualizaProduto.do" method="post">
+Código do produto a ser atualizado:<input type="text" name="codigo"><br>
+Novo nome:<input type="text" name="nome"><br>
+Nova descrição:<input type="text" name=descricao><br>
+Novo valor:<input type="text" name="valor" onkeyup="maskIt(this,event,'###.###.###,##',true,{pre:'R$'})"><br>
+Novo estoque:<input type="text" name="estoque"><br>
+<input type="submit">
+</form>
+<form action="index.html">
+    <input type="submit" value="Inicio" />
+</form>
+</body>
+</html>
